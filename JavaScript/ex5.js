@@ -35,17 +35,17 @@ const alunosDaTurmaB =[{
 
 
 
+const media = (alunosDaTurmaA[0].nota + alunosDaTurmaB[0].nota) / 2
 
 
 // se a média for maior que 5, parabenizar a turma
 if(media > 5){
 	console.log(`A media foi de ${media}.Parabéns`)
 
-}else(media < 5) {
+}else { 
 	console.log('A media é menor que 5')
-
 }
 
-const media = (alunosDaTurmaA.nota+ alunosDaTurmaB.nota)/2
+
 
 console.log(media)
